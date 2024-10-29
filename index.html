@@ -20,7 +20,7 @@
             <button @click="onPlay" :disabled="!canPlay">⏵Play</button>&nbsp;
             <button @click="onStop" :disabled="!canStop">⏹ Stop</button>
         </div>
-        <h3 :id="rid" :title="rid" :style="{color: color}">{{ remaining }}</h3>
+        <h1 :id="rid" :title="rid" :style="{color: color}">{{ remaining }}</h1>
         <small><a href="https://github.com/klemek" target="_blank">@Klemek</a> - <a href="https://github.com/klemek/tape-record" target="_blank">Github Repository</a> - 2024</small>
     </main>
 </body>
